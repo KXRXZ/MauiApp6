@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp6.Pages.valorant"
+             BackgroundImageSource="valorant.png"
+             Title="valorant">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to Valorant!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="#DADADA"/>
+        
+    </VerticalStackLayout>
+</ContentPage>

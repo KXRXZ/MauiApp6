@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp6.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp6.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible ="False">
+
+    <FlyoutItem FlyoutDisplayOptions ="AsMultipleItems">
+        <ShellContent Title="codm" Icon="codm.png" ContentTemplate="{DataTemplate local:codm}"/>
+        <ShellContent Title="mobile_legends" Icon="ml.png" ContentTemplate="{DataTemplate local:mobile_legends}"/>
+        <ShellContent Title="valorant" Icon="valorant.png" ContentTemplate="{DataTemplate local:valorant}"/>
+    </FlyoutItem>
+
+
+</Shell>
